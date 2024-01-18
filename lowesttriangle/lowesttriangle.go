@@ -11,14 +11,20 @@ import (
 )
 
 /*
+ * HackerRank URL: https://www.hackerrank.com/challenges/lowest-triangle
+ *
+/
+
+/*
  * Complete the 'lowestTriangle' function below.
  *
  * The function is expected to return an INTEGER.
  * The function accepts following parameters:
  *  1. INTEGER trianglebase
  *  2. INTEGER area
- */
+*/
 
+// lowestTriangle calculates the lowest possible integer height of a triangle given its base and area
 func lowestTriangle(trianglebase int32, area int32) int32 {
 	return int32(math.Ceil((float64(area) / float64(trianglebase) * 2)))
 }
