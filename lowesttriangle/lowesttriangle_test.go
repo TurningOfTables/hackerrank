@@ -11,7 +11,7 @@ func TestLowestTriangle(t *testing.T) {
 		area int32
 		want int32
 	}{
-		// {17, 100, 12},
+		{17, 100, 12},
 		{8378, 42565, 11},
 	}
 
